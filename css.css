@@ -178,9 +178,7 @@ padding-left: 0%;
   table, thead, tbody, th, td, tr { 
     display: block; 
   }
-  body {
-    -webkit-text-size-adjust: 100%;
-}
+
 .calendar {
   padding-left:0%;
     padding-right:0%;
