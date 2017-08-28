@@ -1,9 +1,7 @@
  table, thead, tbody, th, td, tr { 
     display: block; 
   }
-  body {
-    -webkit-text-size-adjust: 100%;
-}
+
 img {
     max-width: 100%;
     height: auto;
