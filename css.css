@@ -365,9 +365,6 @@ padding-left: 0%;
 
 @media  (max-width: 320px) {
 
-  table, thead, tbody, th, td, tr { 
-    display: block; 
-  }
   body {
     -webkit-text-size-adjust: 100%;
 }
