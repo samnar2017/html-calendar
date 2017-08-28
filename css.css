@@ -218,7 +218,6 @@ body {
 }
 .winter{
   display:flex;
-    flex-wrap:wrap;
   border: 2px solid black;
     top:2em;
   justify-content: space-around;
@@ -230,7 +229,6 @@ body {
   border: 2px solid black;
     top:5em;
     display: flex;
-  flex-wrap:wrap;
     justify-content: space-around;
     padding-top: 2em;
   margin-bottom: 2em;
@@ -240,7 +238,6 @@ body {
   border: 2px solid black;
     top:5em;
   display: flex;
-  flex-wrap:wrap;
   justify-content: space-around;
   padding-top: 2em;
   margin-bottom: 2em;
@@ -249,7 +246,6 @@ body {
   border: 2px solid black;
     top:5em;
   display: flex;
-  flex-wrap:wrap;
   justify-content: space-around;
   padding-top: 2em;
   margin-bottom: 2em;
