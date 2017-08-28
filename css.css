@@ -1,5 +1,3 @@
-
-
 .header {
   width: 100%;
   background: #3380FF;
@@ -19,7 +17,7 @@
 
 
 .body {
-	margin-right: 10%;
+  margin-right: 10%;
     margin-left: 10%;
     font-family: Tahoma;
     font-size:16px;
@@ -27,16 +25,19 @@
 }
 
 .calendar {
-	display: inline-block;
+  display: inline-block;
 
 }
-
+.calendar table{
+  height:30vh;
+  width:80vm;
+}
 .calendar p{
-	font-size: 86px;
-  	color: #fff;
-  	-webkit-text-stroke: 2px black;
-  	border-radius: 50%;
-  	width: 100%;
+  font-size: 86px;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+    border-radius: 50%;
+    width: 100%;
     height: 3em;
     padding: 23px;
     background: #fff;
@@ -48,78 +49,76 @@
 }
 
 .calendar h1 {
-	text-align: center;	
+  text-align: center; 
 }
 
 .calendar tbody td:hover {
-	border: 2px solid #FF00FF;
+  border: 2px solid #FF00FF;
 }
 
 .calendar td {
-	border: 2px solid transparent;
-	border-radius: 50%;
-	display: inline-block;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	width: 2em;
-	overflow: hidden; 
-	text-overflow: ellipsis;
-	opacity:1;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 2em;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  opacity:1;
 
 }
 
 .calendar .prevmonth ,
 .calendar .nextmonth {
-	color: #cbd1d2;
+  color: #cbd1d2;
 }
 
 .calendar .prevmonth:hover,
 .calendar .nextmonth:hover {
-	border: 2px solid #cbd1d2;
+  border: 2px solid #cbd1d2;
 }
 .winter{
-	border: 2px solid black;
+  border: 2px solid black;
     top:2em;
-	display: flex;
-	justify-content: space-around;
-	flex:1;
-	padding-top: 2em;
-	margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  margin-bottom: 2em;
 }
 
 .spring {
-	border: 2px solid black;
+  border: 2px solid black;
     top:5em;
     display: flex;
     justify-content: space-around;
-    flex:1;
     padding-top: 2em;
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .summer{
-	border: 2px solid black;
+  border: 2px solid black;
     top:5em;
-	display: flex;
-	justify-content: space-around;
-	flex:1;
-	padding-top: 2em;
-	margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  margin-bottom: 2em;
 }
 .fall {
-	border: 2px solid black;
+  border: 2px solid black;
     top:5em;
-	display: flex;
-	justify-content: space-around;
-	padding-top: 2em;
-	margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  margin-bottom: 2em;
 }
 
 .year {
-	margin: 2em;
-	text-align: center;
+  margin: 2em;
+  text-align: center;
 }
+
 .opacity {
   opacity: 0.3;
   z-index:-1;
@@ -132,45 +131,46 @@
 
 
 @media screen and (max-width: 1170px) {
-	
-	.winter {
-  	display:inherit;
-  	padding-left: 0%;
-  	padding-right: 0%;
-  	text-align:center;
-  	font-size:2em;
+  
+  .winter {
+    display:inherit;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align:center;
+    font-size:1em;
+
 }
 
 .spring {
     display:inherit; 
 padding-left: 0%;
-  	padding-right: 0%;
-  	  	text-align:center;
-  	  	  	    font-size:2em;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
 
 
 }
 .summer{   
-	display:inherit;
+  display:inherit;
 padding-left: 0%;
-  	padding-right: 0%;
-  	  	text-align:center;
-  	  	  	    font-size:2em;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
 
 
 }
 .fall {
-	display:inherit;
+  display:inherit;
 padding-left: 0%;
-  	padding-right: 0%;
-  	  	text-align:center;
-  	  	  	    font-size:2em;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
 
 }
 .calendar {
     text-align:center;
 }
-
+}
 
 @media  (max-width: 768px) {
 
@@ -222,4 +222,3 @@ padding-left: 0%;
     max-width:100%;
 }
 }
-
