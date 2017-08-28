@@ -181,7 +181,8 @@ padding-left: 0%;
 
 @media  (max-width: 320px) {
  .winter {
-    display:inherit;
+    display:flex;
+    flex-wrap:wrap;
     padding-left: 0%;
     padding-right: 0%;
     text-align:center;
@@ -190,7 +191,8 @@ padding-left: 0%;
 }
 
 .spring {
-    display:inherit; 
+    display:flex;
+    flex-wrap:wrap;
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
@@ -199,7 +201,8 @@ padding-left: 0%;
 
 }
 .summer{   
-  display:inherit;
+  display:flex;
+    flex-wrap:wrap;
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
@@ -208,7 +211,8 @@ padding-left: 0%;
 
 }
 .fall {
-  display:inherit;
+  display:flex;
+    flex-wrap:wrap;
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
