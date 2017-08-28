@@ -136,6 +136,51 @@ body {
 @media screen and (max-width: 1170px) {
   
   .winter {
+    display:flex;
+    flex-wrap:wrap;  
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align:center;
+    font-size:1em;
+
+}
+
+.spring {
+    display:flex;
+    flex-wrap:wrap; 
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+
+}
+.summer{   
+  display:flex;
+    flex-wrap:wrap; 
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+
+}
+.fall {
+  display:flex;
+    flex-wrap:wrap; 
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+}
+.calendar {
+    text-align:center;
+}
+}
+
+@media  (max-width: 320px) {
+ .winter {
     display:inherit;
     padding-left: 0%;
     padding-right: 0%;
@@ -174,8 +219,6 @@ padding-left: 0%;
     text-align:center;
 }
 }
-
-@media  (max-width: 320px) {
 
 
 .calendar {
