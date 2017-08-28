@@ -175,6 +175,10 @@ padding-left: 0%;
 
 
 @media  (max-width: 763px) {
+	
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
 .calendar {
     padding-left:20%;
     padding-right:20%;
@@ -258,3 +262,4 @@ padding-left: 0%;
 .calendar {
     text-align:center;
 }
+	}
