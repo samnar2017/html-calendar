@@ -141,9 +141,7 @@
 body {
     -webkit-text-size-adjust: 100%;
 }
- table, thead, tbody, th, td, tr { 
-    display: block; 
-  }
+
 .header {
   width: 100%;
   background: #3380FF;
