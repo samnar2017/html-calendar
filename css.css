@@ -364,7 +364,7 @@ padding-left: 0%;
 }
 
 
-@media  (max-width: 320px) {
+@media  (max-width: 720px) {
 
   table, thead, tbody, th, td, tr { 
     display: block; 
