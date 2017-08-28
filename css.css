@@ -216,5 +216,5 @@ padding-left: 0%;
   position: absolute;
   display: flex;
     height: calc(30vh - 100px);
-    max-width:50%;
+    max-width:100%;
 }
