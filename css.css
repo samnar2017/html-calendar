@@ -219,3 +219,42 @@ padding-left: 0%;
     max-width:100%;
 }
 
+ 
+  .winter {
+    display:inherit;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align:center;
+    font-size:1em;
+
+}
+
+.spring {
+    display:inherit; 
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+
+}
+.summer{   
+  display:inherit;
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+
+}
+.fall {
+  display:inherit;
+padding-left: 0%;
+    padding-right: 0%;
+        text-align:center;
+                font-size:1em;
+
+}
+.calendar {
+    text-align:center;
+}
