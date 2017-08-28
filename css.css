@@ -175,11 +175,10 @@ padding-left: 0%;
 @media  (max-width: 768px) {
 
   table, thead, tbody, th, td, tr { 
-    display: block; 
-  }
-  body {
+    display: block;
     -webkit-text-size-adjust: 100%;
-}
+  }
+
 .calendar {
   padding-left:0%;
     padding-right:0%;
