@@ -1,3 +1,10 @@
+ table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  body {
+    -webkit-text-size-adjust: 100%;
+}
+
 .header {
   width: 100%;
   background: #3380FF;
@@ -359,12 +366,7 @@ padding-left: 0%;
 
 @media  (max-width: 768px) {
 
-  table, thead, tbody, th, td, tr { 
-    display: block; 
-  }
-  body {
-    -webkit-text-size-adjust: 100%;
-}
+
 .calendar {
   padding-left:0%;
     padding-right:0%;
