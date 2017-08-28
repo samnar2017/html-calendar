@@ -136,8 +136,7 @@
   	padding-left: 0%;
   	padding-right: 0%;
   	text-align:center;
-  	font-size:1em;/*3% of viewport’s height, we need a relative height because different screens has different pixel ratio*/
-
+  	font-size:2em;
 }
 
 .spring {
@@ -145,7 +144,7 @@
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:1em;
+  	  	  	    font-size:2em;
 
 
 }
@@ -154,7 +153,7 @@ padding-left: 0%;
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:1em;
+  	  	  	    font-size:2em;
 
 
 }
@@ -163,7 +162,7 @@ padding-left: 0%;
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:1em;
+  	  	  	    font-size:2em;
 
 }
 .calendar {
