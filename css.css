@@ -121,6 +121,14 @@
 	margin: 2em;
 	text-align: center;
 }
+.opacity {
+  opacity: 0.3;
+  z-index:-1;
+  position: absolute;
+  display: flex;
+    height: calc(30vh - 100px);
+    max-width:100%;
+}
 
 
 
@@ -131,7 +139,7 @@
   	padding-left: 0%;
   	padding-right: 0%;
   	text-align:center;
-  	font-size:3vh;/*3% of viewport’s height, we need a relative height because different screens has different pixel ratio*/
+  	font-size:1em;/*3% of viewport’s height, we need a relative height because different screens has different pixel ratio*/
 
 }
 
@@ -140,7 +148,7 @@
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:3vh;
+  	  	  	    font-size:1em;
 
 
 }
@@ -149,7 +157,7 @@ padding-left: 0%;
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:3vh;
+  	  	  	    font-size:1em;
 
 
 }
@@ -158,15 +166,15 @@ padding-left: 0%;
 padding-left: 0%;
   	padding-right: 0%;
   	  	text-align:center;
-  	  	  	    font-size:3vh;
+  	  	  	    font-size:1em;
 
 }
 .calendar {
     text-align:center;
 }
-}
 
-@media  (max-width: 1000px) {
+
+@media  (max-width: 500px) {
 .calendar {
 	padding-left:0%;
     padding-right:0%;
@@ -199,7 +207,7 @@ padding-left: 0%;
 	width: 1.5em;
 }	
 
-}
+
 
 
 .opacity {
@@ -208,4 +216,5 @@ padding-left: 0%;
 	position: absolute;
 	display: flex;
     height: calc(30vh - 100px);
-}
+    max-width:50%;
+} 
