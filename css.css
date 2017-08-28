@@ -258,12 +258,11 @@ padding-left: 0%;
 .calendar td{
     font-family: inherit;
   border: 1px solid transparent;
-  border-radius: 50%;
   display: inline-block;
-  height: 1.5em;
+  height: 2em;
   line-height: 2em;
   text-align: center;
-  width: 1.5em;
+  width: 2em;
 } 
 
 
