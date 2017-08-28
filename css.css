@@ -364,7 +364,7 @@ padding-left: 0%;
 }
 
 
-@media  (max-width: 720px) {
+@media  (max-width: 320px) {
 
   table, thead, tbody, th, td, tr { 
     display: block; 
@@ -399,7 +399,7 @@ padding-left: 0%;
   border-radius: 50%;
   display: inline-block;
   height: 1.5em;
-  line-height: 1em;
+  line-height: 2em;
   text-align: center;
   width: 1.5em;
 } 
