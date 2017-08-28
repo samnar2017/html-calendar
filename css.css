@@ -135,9 +135,8 @@ body {
 
 @media screen and (max-width: 1170px) {
   
-  .winter {
-    display:flex;
-    flex-wrap:wrap;  
+   .winter {
+    display:inherit;
     padding-left: 0%;
     padding-right: 0%;
     text-align:center;
@@ -146,8 +145,7 @@ body {
 }
 
 .spring {
-    display:flex;
-    flex-wrap:wrap; 
+    display:inherit; 
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
@@ -156,8 +154,7 @@ padding-left: 0%;
 
 }
 .summer{   
-  display:flex;
-    flex-wrap:wrap; 
+  display:inherit;
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
@@ -166,8 +163,7 @@ padding-left: 0%;
 
 }
 .fall {
-  display:flex;
-    flex-wrap:wrap; 
+  display:inherit;
 padding-left: 0%;
     padding-right: 0%;
         text-align:center;
