@@ -259,7 +259,6 @@ padding-left: 0%;
 .opacity {
   opacity: 0.3;
   z-index:-1;
-  position: absolute;
   display: flex;
     max-width:100%;
 }
