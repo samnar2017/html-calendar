@@ -10,6 +10,20 @@
 	<meta charset="UTF-8">
 	<title>Calendar</title>
 	<link href="css.css" rel='stylesheet' type='text/css'>
+	<script type="text/javascript">
+window.onload = function()
+{
+todaydate();
+}
+
+function todaydate(){
+var currentDate = new Date()
+var day = currentDate.getDate()
+var month = currentDate.getMonth() + 1
+var year = currentDate.getFullYear()
+document.getElementById('date').innerHTML ="<h1>" + month + "/" + day + "/" + year + "</h1>";
+}
+</script>
 </head>
 <body>
 		<div class="body">		
@@ -17,6 +31,7 @@
 
       		<div class="calendar">
       				<p>2017</p>
+			<div id="date"></div>
       		</div>	
       	
       			<div class="calendar">
